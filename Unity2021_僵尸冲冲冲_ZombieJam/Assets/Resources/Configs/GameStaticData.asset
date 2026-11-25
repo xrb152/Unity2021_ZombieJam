@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6f91c8c180451fbf90d8afdc46a0e0, type: 3}
+  m_Name: GameStaticData
+  m_EditorClassIdentifier: 
+  _windowsStaticData: {fileID: 11400000, guid: 41cb2dd552fae134c8ca8535b3da6309, type: 2}
+  _regionConfig: {fileID: 11400000, guid: 3d539e3ee8927084189aa174b25a3fca, type: 2}
+  spritesSpritesConfig: {fileID: 11400000, guid: 97f8daa4d5466c242b89f67b136e9e38, type: 2}
+  _levelConfig: {fileID: 11400000, guid: f7d0b047de1def94fa499f1d7e9d4fa3, type: 2}
+  _zombieConfig: {fileID: 11400000, guid: 13e33ba7b8244394f988b637afd9e5ba, type: 2}
+  _cardsConfig: {fileID: 11400000, guid: 8d84a3de3347e7d42a61f7a33646a169, type: 2}
+  _shopConfig: {fileID: 11400000, guid: 2eee2c555955c354285e6792d3207083, type: 2}
+  _adsConfig: {fileID: 11400000, guid: 7110b4aa76bb9f244900fe92178ccff4, type: 2}
+  _boostersConfig: {fileID: 11400000, guid: b6b1e704b5349c34dbd71b7940a80dce, type: 2}

@@ -1,0 +1,63 @@
+# ===== Unity 生成目录（体积大、可完全重建，绝不入库）=====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity 自动生成的工程文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# ===== IDE / 编辑器 =====
+.vs/
+.idea/
+.vscode/
+*.DotSettings.user
+.consulo/
+
+# ===== 打包产物（由 Unity 重新构建生成）=====
+tt-minigame/
+game.json
+project.config.json
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ===== 混淆器日志（单文件 27MB，无版本价值）=====
+Assets/OPS/Obfuscator/Log/
+
+# ===== 本地备份 / 日志 =====
+Backup/
+log/
+*.log
+
+# ===== WorkBuddy 临时与备份 =====
+.workbuddy/tmp/
+.workbuddy/*.flag
+
+# ===== 系统垃圾 =====
+.DS_Store
+Thumbs.db
+desktop.ini

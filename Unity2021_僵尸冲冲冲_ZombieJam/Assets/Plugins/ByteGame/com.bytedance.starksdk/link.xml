@@ -1,0 +1,10 @@
+<linker>
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="all" />
+  </assembly>
+  <!-- 保留 JsonData 全部成员：ttsdk.dll 引用了 5 个 op_Explicit 转换运算符，
+       代码剥离只保留了 Boolean，导致 IL2CPP 解析 Int32/Int64/Double/String 失败 -->
+  <assembly fullname="TTLitJson">
+    <type fullname="TTSDK.UNBridgeLib.LitJson.JsonData" preserve="all" />
+  </assembly>
+</linker>

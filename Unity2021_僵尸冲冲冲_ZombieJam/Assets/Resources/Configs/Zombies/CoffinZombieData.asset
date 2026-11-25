@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dce78a5924f84cbbb516c4cd39e5e33a, type: 3}
+  m_Name: CoffinZombieData
+  m_EditorClassIdentifier: 
+  Name: 2
+  Type: 2
+  Prefab: {fileID: 1708141673866028688, guid: 1129a3d8bc4a09f4ea35ab2c10c12e84, type: 3}
+  Parameters: {fileID: 11400000, guid: a976eb5d210c25841a07c0bdc534b768, type: 2}
+  ZombieSize: 1
